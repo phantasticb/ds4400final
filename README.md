@@ -1,4 +1,6 @@
+# Title: Detecting Hate Speech in Social Media Applications
 
+# Abstract: Hate speech has been a long standing issue, however, it is reaching more people as social media continues to expand. The spread of hate speech online can lead to the promotion of discrimination, harassment and violence against certain groups of people which can create an unsafe and unwelcoming environment for those targeted by it. In this project, we attempted to develop machine learning models that could identify and flag hate speech in social media so that we can create a safer, more inclusive online environment for users.
 
 # Documentation:
 ## Introduction:
