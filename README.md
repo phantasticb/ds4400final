@@ -1,6 +1,10 @@
 Note: this repo requires the GloVe pretrained embeddings which can be found at https://nlp.stanford.edu/data/glove.6B.zip
 
 The file was too large to include in the repo and should be downloaded manually.
+
+File Breakdown:
+
+
 # Title
 Detecting Hate Speech in Social Media Applications
   by Haley Matuszak, Byron Phan and Jasmine Chiou
