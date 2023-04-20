@@ -56,6 +56,9 @@ In our final project, we wanted to create a machine learning model that could ac
 `[5] Crawford, M., Khoshgoftaar, T.M., Prusa, J.D. et al. Survey of review spam detection using machine learning techniques. Journal of Big Data 2, 23 (2015). https://doi.org/10.1186/s40537-015-0029-9`
 
 # Appendix A
+
+Figure 1: The results from the four models of our initial dataset
+
 |  | Accuracy | Precision | Recall | F1|
 |---|---|---|---|---|
 |Naive Bayes|0.800|0.771|0.780|0.776
@@ -63,8 +66,7 @@ In our final project, we wanted to create a machine learning model that could ac
 RNN|0.829|0.806|0.809|0.808
 CNN-LSTM|0.825|0.791|0.820|0.806
 
-Figure 1: The results from the four models of our initial dataset
-
+Figure 2: The results from using the Davidson Hate Speech dataset with the previously trained model 
 
 |  | Accuracy | Precision | Recall | F1|
 |---|---|---|---|---|
@@ -73,8 +75,7 @@ CNN|0.760|0.757|0.766|0.761
 RNN|0.792|0.781|0.811|0.796
 CNN-LSTM|0.790|0.770|0.827|0.797
 
-Figure 2: The results from using the Davidson Hate Speech dataset with the previously trained model 
-
+Figure 3:: The results from using the Hate Speech dataset with the previously trained model 
 
 |  | Accuracy | Precision | Recall | F1|
 |---|---|---|---|---|
@@ -82,7 +83,3 @@ Naive Bayes|0.763|0.752|0.783|0.767
 CNN|0.757|0.785|0.707|0.744
 RNN|0.793|0.805|0.773|0.788
 CNN-LSTM|0.787|0.791|0.780|0.786
-
-Figure 3:: The results from using the Hate Speech dataset with the previously trained model 
-
-
