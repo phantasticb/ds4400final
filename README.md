@@ -59,33 +59,29 @@ In our final project, we wanted to create a machine learning model that could ac
 |  | Accuracy | Precision | Recall | F1|
 |---|---|---|---|---|
 |Naive Bayes|0.800|0.771|0.780|0.776
-|CNN|0.805|0.790|0.762|0.776
-RNN|0.822|0.762|0.868|0.812
-CNN-LSTM|0.815|0.783|0.804|0.794
-
+|CNN|0.805|0.795|0.754|0.774
+RNN|0.829|0.806|0.809|0.808
+CNN-LSTM|0.825|0.791|0.820|0.806
 
 Figure 1: The results from the four models of our initial dataset
+
 
 |  | Accuracy | Precision | Recall | F1|
 |---|---|---|---|---|
 Naive Bayes|0.801|0.753|0.897|0.819
-CNN|0.513|0.522|0.319|0.396
-RNN|0.477|0.481|0.576|0.524
-CNN-LSTM|0.731|0.702|0.806|0.750
-
+CNN|0.760|0.757|0.766|0.761
+RNN|0.792|0.781|0.811|0.796
+CNN-LSTM|0.790|0.770|0.827|0.797
 
 Figure 2: The results from using the Davidson Hate Speech dataset with the previously trained model 
-
-
 
 
 |  | Accuracy | Precision | Recall | F1|
 |---|---|---|---|---|
 Naive Bayes|0.763|0.752|0.783|0.767
-CNN|0.531|0.554|0.311|0.399
-RNN|0.535|0.545|0.417|0.473
-CNN-LSTM|0.745|0.762|0.712|0.736
-
+CNN|0.757|0.785|0.707|0.744
+RNN|0.793|0.805|0.773|0.788
+CNN-LSTM|0.787|0.791|0.780|0.786
 
 Figure 3:: The results from using the Hate Speech dataset with the previously trained model 
 
