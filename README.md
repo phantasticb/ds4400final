@@ -3,7 +3,11 @@ Note: this repo requires the GloVe pretrained embeddings which can be found at h
 The file was too large to include in the repo and should be downloaded manually.
 
 File Breakdown:
-
+  MLFP.ipynb - The main notebook file that has our four finished models, training, and the two additional testing results.
+  davidson_data.csv - the dataset we compiled from the Davidson dataset [2]
+  embeddings.ipynb - An experimental notebook where we tried to train our own word embeddings, but was not successful
+  merged_hate.csv - the dataset compiled from the HSD dataset [3]
+  updated_hate_speech2.csv - our original dataset from the Curated Hate Speech dataset [1] that we train our models on
 
 # Title
 Detecting Hate Speech in Social Media Applications
