@@ -43,7 +43,7 @@ We chose to use pretrained GloVe vectors as our word embeddings because of the n
 We decided that it might give us more insight to look at which sentences each model was failing on. We printed out the first five incorrect predictions with the actual label and predicted label. You can see them in the main jupyter notebook. We were then able to make general observations about each model.
 Our Naive Bayes model predictably mislabeled non-hate sentences with words powerfully associated with hate speech, most often profanity, even if no hate was intended. Some false negative cases were also observed when hateful speech did not contain strong profanity and simply expressed animosity towards a particular group.
 Our CNN exhibited similar behavior. A false positive was registered when the sentence contained non-hate insults. Another pattern we observed in the data was the poor labeling in the dataset. Sentences like 'bolest reba recite' were labeled as hate. In our first incorrect example for the CNN, the sentence 'i really hate being a b****' demonstrates the model's inability to deal with long-term negation dependencies. This explains how the LSTM generally performs better as it is able to take into account these long term dependencies. 
-RNNs are very good at long-term dependencies, so we noticed that some of the examples that CNN misclassified were caught by the RNN. .....
+RNNs are very good at long-term dependencies, so we noticed that some of the examples that CNN misclassified were caught by the RNN. However, it seems that they also got some of the same sentences incorrect. FINISH
 Our CNN-LSTM...
 
 ## Conclusion
