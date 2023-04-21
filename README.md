@@ -9,6 +9,7 @@ File Breakdown:
 * merged_hate.csv - the dataset compiled from the HSD dataset [3]
 * updated_hate_speech2.csv - our original dataset from the Curated Hate Speech dataset [1] that we train our models on
 * FinalPDF - a PDF with all of the outputs printed from when we ran it
+* cleaning_final_project.ipynb - where we created and cleaned the testing datasets
 
 # Title
 Detecting Hate Speech in Social Media Applications
